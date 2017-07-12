@@ -155,3 +155,19 @@ formatterBRSP <- function(path){
 # reset dirHBA to point to base directory
 dirBRSP <- "C:/Users/cygwin/home/charlese/dir_BRSP"
 formatterBRSP(dirBRSP)
+
+# fixed a formatting issue after creation
+create_age_str <- function(df){
+    splt_str <- stringr::str_split_fixed(
+        gsub("([0-9]+) ", "\\1_", df$brain_structure_age), " ", n=2)
+    splt_mat <- as.data.frame(splt_str) 
+    df$brain_structure <- splt_mat$V1
+    df$age <- splt_mat$V2
+    df$gene <- as.factor(df$gene)
+    df[c(-2)]
+}
+
+datBRSP.exon.array <- create_age_str(brspdata::datBRSP.exon.array)
+datBRSP.exon.rna <- create_age_str(brspdata::datBRSP.exon.rna)
+datBRSP.gene.array <- create_age_str(brspdata::datBRSP.gene.array)
+datBRSP.gene.rna <- create_age_str(brspdata::datBRSP.gene.rna)
