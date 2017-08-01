@@ -1,5 +1,5 @@
 # brspdata
-A repository to hold the `brspdata` package, a package containing the normalized mRNA expression data used in the [Branspan Atlas of the Developing Human](http://brainspan.org/) at the [Allen Institute](https://www.alleninstitute.org/).
+A repository to hold the `brspdata` package, a package containing the normalized mRNA expression data used in the [Brainspan Atlas of the Developing Human](http://brainspan.org/) at the [Allen Institute](https://www.alleninstitute.org/).
 
 The original data can be found [here](http://www.brainspan.org/static/download.html).
 
