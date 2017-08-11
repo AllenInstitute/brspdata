@@ -51,5 +51,5 @@
 #'@format A vector with 48466 
 #'@source \url{"http://www.brainspan.org/static/download.html"}
 #'
-"datBRSP.gene.rna"
+"genesBRSP"
 

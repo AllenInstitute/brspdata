@@ -3,7 +3,6 @@
 \docType{data}
 \name{datBRSP.gene.rna}
 \alias{datBRSP.gene.rna}
-\alias{datBRSP.gene.rna}
 \title{RNAseq RNA Expression Values for the Human Brain Span Atlas.}
 \format{A data frame with 25051392 rows and 4 variables:
 \describe{
@@ -14,17 +13,11 @@
 }}
 \source{
 \url{"http://www.brainspan.org/static/download.html"}
-
-\url{"http://www.brainspan.org/static/download.html"}
 }
 \usage{
-datBRSP.gene.rna
-
 datBRSP.gene.rna
 }
 \description{
 Data frame containing the normalized RNA values for the genes studied via RNAseq sampling in the brain span altas.
-
-Vector of genes in the in the brain span atlas
 }
 \keyword{datasets}
