@@ -1,5 +1,5 @@
 # brspdata
-A repository to hold the `brspdata` package, a package containing the normalized mRNA expression data used in the [Brainspan Atlas of the Developing Human](http://brainspan.org/) at the [Allen Institute](https://www.alleninstitute.org/).
+A repository to hold the `brspdata` package, a package containing the normalized mRNA expression data used in the [Brainspan Atlas of the Developing Human](http://brainspan.org/) at the [Allen Institute](http://brain-map.org/).
 
 The original data can be found [here](http://www.brainspan.org/static/download.html).
 
@@ -18,8 +18,8 @@ In the `R` command line perform the following commands
 install.package("devtools")
 
 # Install hbadata
-devtools::install_github("edelsonc/brspdata")
+devtools::install_github("AllenInstitute/brspdata")
 ```
 
 ## Additional Details
-The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://human.brain-map.org/static/download) into the hosted `.rda` files. This code is located in `data-raw`.
+The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://www.brainspan.org/static/download.html) into the hosted `.rda` files. This code is located in `data-raw`.
